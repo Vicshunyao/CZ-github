@@ -1,0 +1,17 @@
+.common_title {
+  position: relative;
+  font-size: 27px;
+  font-family: Microsoft YaHei;
+  font-weight: bold;
+  color: #333333;
+  line-height: 42px;
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: linear-gradient(90deg, #0f5ceb, rgba(255, 255, 255, 0.41));
+    border-radius: 2px;
+  }
+}

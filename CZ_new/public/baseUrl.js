@@ -1,0 +1,1 @@
+window.baseUrl = 'http://116.147.35.115:8888/api'
